@@ -1,0 +1,67 @@
+.botaoVoltar {
+    background: linear-gradient(135deg, #d3c856, #36d4b2);
+
+    color: white;
+
+    border: none;
+    border-radius: 12px;
+
+    padding: 12px 24px;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    letter-spacing: 0.5px;
+
+    cursor: pointer;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+
+    transition: all 0.3s ease;
+}
+
+.botaoVoltar:hover {
+    transform: scale(1.05);
+
+    box-shadow: 0 8px 18px rgba(0,0,0,0.3);
+}
+
+.descricao {
+    max-width: 800px;
+    margin: 30px auto;
+
+    font-size: 1.2rem;
+    line-height: 1.8;
+
+    color: #333;
+}
+
+.bannerSola {
+    height: 350px;
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+.bannerSola::before {
+    content: "";
+
+    position: absolute;
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.5);
+}
+.bannerSola h1 {
+    position: relative;
+    z-index: 1;
+
+    color: white;
+
+    font-size: 3rem;
+    text-shadow: 2px 2px 8px black;
+}

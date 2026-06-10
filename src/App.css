@@ -55,7 +55,7 @@
       scale(0.8);
   }
 }
-
+/* 
 #center {
   display: flex;
   flex-direction: column;
@@ -68,6 +68,14 @@
     padding: 32px 20px 24px;
     gap: 18px;
   }
+} */
+
+.containerCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
 }
 
 #next-steps {
@@ -181,4 +189,69 @@
     right: 0;
     border-right-color: var(--border);
   }
+}
+body {
+    background-color: #f5f5f5;
+}
+.containerCards {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 30px;
+
+    padding: 30px;
+}
+
+.bannerPrincipal {
+    height: 500px;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+
+.bannerPrincipal::before {
+    content: "";
+
+    position: absolute;
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.55);
+}
+
+.bannerConteudo {
+    position: relative;
+    z-index: 1;
+
+    text-align: center;
+    color: white;
+}
+
+.bannerConteudo h1 {
+    font-size: 4rem;
+    margin-bottom: 15px;
+}
+
+.bannerConteudo p {
+    font-size: 1.4rem;
+}
+
+body {
+    background-image: url("./assets/banner-reforma.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.CardReforma {
+    background-color: rgba(255, 255, 255, 0.9);
 }

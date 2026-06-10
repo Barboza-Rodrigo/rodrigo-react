@@ -1,0 +1,42 @@
+.imagemCard:hover {
+    transform: scale(1.05);
+    filter: brightness(1.15);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+.CardReforma {
+   
+   
+    background-color: #123596;
+
+    border-radius: 12px;
+    padding: 20px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+    text-align: center;
+    width: 300px;
+
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.CardReforma:hover {
+    transform: translateY(-5px);
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+.imagemCard {
+    border-radius: 12px;
+
+    transition: transform 0.3s ease,
+                filter 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.CardReforma:hover {
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 15px 35px rgba(0,0,0,0.25);
+}
+

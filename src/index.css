@@ -51,9 +51,8 @@
 }
 
 body {
-  margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
 }
-
 #root {
   width: 1126px;
   max-width: 100%;

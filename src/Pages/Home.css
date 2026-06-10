@@ -1,0 +1,42 @@
+.bannerPrincipal {
+    height: 500px;
+
+    background-image: url("./assets/banner-reforma.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerPrincipal::before {
+    content: "";
+
+    position: absolute;
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.55);
+}
+
+.bannerConteudo {
+    position: relative;
+    z-index: 1;
+
+    text-align: center;
+    color: white;
+}
+
+.bannerConteudo h1 {
+    font-size: 4rem;
+    font-weight: bold;
+
+    margin-bottom: 20px;
+}
+
+.bannerConteudo p {
+    font-size: 1.4rem;
+}

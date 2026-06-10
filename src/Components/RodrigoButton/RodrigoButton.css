@@ -1,0 +1,32 @@
+.rodrigoButton {
+    border: none;
+    border-radius: 8px;
+
+    padding: 10px 20px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.rodrigoButton:hover {
+    opacity: 0.85;
+}
+
+.CardReforma {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+    text-align: center;
+
+    transition: transform 0.3s ease;
+}
+
+.CardReforma:hover {
+    transform: translateY(-5px);
+}

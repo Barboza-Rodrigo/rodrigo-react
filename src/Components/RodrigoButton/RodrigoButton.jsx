@@ -1,14 +1,23 @@
-// import './RodrigoButton.css'
+import "./RodrigoButton.css";
 
-function RodrigoButton ({titulo='Botão Padrão', cor ='orange', corDaFonte= 'black'}) {
+function RodrigoButton({
+    titulo = 'Botão Padrão',
+    cor = 'orange',
+    corDaFonte = 'black',
+    onClick
+}) {
     return (
-
         <button
-        classNome="rodrigoButton"
-        style={{backgroundColor: cor, color: corDaFonte}}>
+            className="rodrigoButton"
+            onClick={onClick}
+            style={{
+                backgroundColor: cor,
+                color: corDaFonte
+            }}
+        >
             {titulo}
         </button>
-    )
+    );
 }
 
-export default RodrigoButton
+export default RodrigoButton;
